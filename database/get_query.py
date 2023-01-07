@@ -1,10 +1,10 @@
 """SQL Database Query functions"""
 
 import mysql.connector
-import MySQLdb
+# import MySQLdb
 import pandas as pd
 
-from database import PROD_SQL_CREDS
+from creds.database import PROD_SQL_CREDS
 
 def get_query(query, db="prod", as_dict=False, as_df=True):
     """Common method to connect to db and get data"""
