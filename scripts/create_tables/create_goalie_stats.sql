@@ -1,0 +1,33 @@
+drop table if exists goalie_stats;
+
+create table goalie_stats (
+    player_name varchar(75),
+    player_id float,
+    jersey int,
+    team varchar(100),
+    team_id int,
+    position varchar(),
+    season int,
+    season_id int,
+    season_type varchar(50),
+    league varchar(8),
+    league_id int,
+    division_id int,
+    games_played int,
+    games_started int,
+    time_on_ice varchar(10),
+    minutes_played float,
+    wins int,
+    losses int,
+    ties int,
+    overtime_losses int,
+    shots_against int,
+    saves int,
+    goals_allowed int,
+    save_pct float,
+    goals_against_average float,
+    shutouts int,
+    penalty_minutes int,
+    goals int,
+    assists int
+);

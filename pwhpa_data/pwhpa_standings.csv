@@ -1,0 +1,5 @@
+team,team_id,rank,gp,w,l,otw,ot,pts,gf,ga,goal_diff,power_play_goals,power_plays,power_play_pct,power_play_goals_allowed,power_plays_against,penalty_kill_pct,last_five,streak
+Harvey's,157,1,9,5,1,3,0,21,35,20,15,4,23,0.174,2,20,0.9,4-0-1-0,W1
+adidas,130,2,9,5,3,0,1,16,25,24,1,4,25,0.16,4,29,0.862,3-2-0-0,W3
+Scotiabank,89,3,9,3,6,0,0,9,22,29,-7,5,26,0.192,5,25,0.8,1-4-0-0,L3
+Sonnet,182,4,9,2,5,0,2,8,20,29,-9,1,20,0.05,3,20,0.85,1-3-0-1,L1

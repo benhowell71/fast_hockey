@@ -1,0 +1,14 @@
+player_name,first_name,last_name,team_id,position,games_played,wins,shots_against,goals_against,saves,save_pct,gaa,shutouts,time_on_ice,minutes_played
+Sydney Scobee,Sydney,Scobee,adidas,G,1,1,35,1,34,0.971,1.00,0,1:00,60.0
+Nicole Hensley,Nicole,Hensley,sonnet,G,5,2,183,12,171,0.934,2.40,0,5:00,300.0
+Aerin Frankel,Aerin,Frankel,adidas,G,3,2,89,6,83,0.933,2.03,1,2:57,177.0
+Geneviève Lacasse,Geneviève,Lacasse,harveys,G,3,3,88,6,82,0.932,2.00,0,3:00,180.0
+Ann-Renée Desbiens,Ann-Renée,Desbiens,harveys,G,6,4,159,11,148,0.931,2.17,0,5:04,304.20000000000005
+Marlène Boissonnault,Marlène,Boissonnault,harveys,G,1,1,27,2,25,0.926,2.00,0,1:00,60.0
+Amanda Makela,Amanda,Makela,scotiabank,G,1,0,27,2,25,0.926,2.11,0,0:57,57.0
+Maddie Rooney,Maddie,Rooney,adidas,G,4,2,122,11,111,0.910,2.75,0,4:00,240.0
+Lindsay Browning,Lindsay,Browning,sonnet,G,2,0,55,5,50,0.909,2.56,0,1:57,117.0
+Emerance Maschmeyer,Emerance,Maschmeyer,scotiabank,G,5,1,119,11,108,0.908,2.93,0,3:45,225.0
+Kristen Campbell,Kristen,Campbell,scotiabank,G,5,2,135,13,122,0.904,3.20,1,4:04,244.20000000000002
+Shea Tiley,Shea,Tiley,adidas,G,1,0,41,4,37,0.902,4.07,0,0:59,58.8
+Erica Howe,Erica,Howe,sonnet,G,2,0,69,9,60,0.870,4.62,0,1:57,117.0

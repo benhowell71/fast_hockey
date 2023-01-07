@@ -1,0 +1,37 @@
+team,first,second,third,ot,final,power_play_opps,power_play_goals,shots_on_goal,result,points,game_id
+Scotiabank,1,0,1,,2,3,0,21,loss,0,scotiabank-vs-sonnet
+Sonnet,0,2,2,,4,0,0,29,win,3,scotiabank-vs-sonnet
+Harvey's,1,1,0,,2,4,0,34,loss,0,team-harveys-vs-team-adidas
+adidas,0,2,2,,4,1,0,25,win,3,team-harveys-vs-team-adidas
+adidas,0,0,0,,0,5,0,42,loss,0,team-adidas-vs-team-scotiabank
+Scotiabank,3,1,1,,5,4,2,23,win,3,team-adidas-vs-team-scotiabank
+Sonnet,0,1,1,0,2,0,0,35,ot loss,1,team-sonnet-vs-team-harveys
+Harvey's,1,0,2,1,3,2,0,34,ot win,2,team-sonnet-vs-team-harveys
+Sonnet,0,1,0,,1,2,0,45,loss,0,team-sonnet-vs-team-scotiabank
+Scotiabank,0,2,0,,2,2,0,27,win,3,team-sonnet-vs-team-scotiabank
+adidas,2,0,1,0,3,4,1,38,ot loss,1,team-adidas-vs-team-harveys
+Harvey's,2,1,0,1,4,4,1,29,ot win,2,team-adidas-vs-team-harveys
+Harvey's,1,2,3,,6,0,0,38,win,3,team-sonnet-vs-team-harveys-2
+Sonnet,1,1,0,,2,3,0,27,loss,0,team-sonnet-vs-team-harveys-2
+Scotiabank,2,1,0,,3,4,0,26,loss,0,team-scotiabank-vs-team-adidas
+adidas,3,1,2,,5,4,2,36,win,3,team-scotiabank-vs-team-adidas
+adidas,0,1,0,,1,3,0,35,loss,0,team-adidas-vs-team-sonnet-2
+Sonnet,2,1,1,,4,6,0,24,win,3,team-adidas-vs-team-sonnet-2
+Harvey's,2,3,0,,5,2,1,32,win,3,team-scotiabank-vs-team-harveys
+Scotiabank,0,0,1,,1,5,1,33,loss,0,team-scotiabank-vs-team-harveys
+Harvey's,2,2,1,,4,2,1,22,win,3,team-harveys-vs-team-adidas-2
+adidas,0,1,2,,3,1,0,41,loss,0,team-harveys-vs-team-adidas-2
+Scotiabank,1,0,4,,5,2,2,46,win,3,team-scotiabank-vs-team-sonnet
+Sonnet,0,1,3,,4,4,1,37,loss,0,team-scotiabank-vs-team-sonnet
+Scotiabank,0,1,1,,2,2,0,38,loss,0,team-scotiabank-vs-team-harveys-2
+Harvey's,2,1,2,,5,3,1,34,win,3,team-scotiabank-vs-team-harveys-2
+Sonnet,1,0,0,,1,1,0,35,loss,0,team-sonnet-vs-team-adidas
+adidas,1,2,0,,3,2,0,20,win,3,team-sonnet-vs-team-adidas
+adidas,0,1,1,,2,2,0,27,win,3,team-adidas-vs-team-scotiabank-2
+Scotiabank,0,0,1,,1,2,0,35,loss,0,team-adidas-vs-team-scotiabank-2
+Sonnet,2,0,0,0,2,2,0,26,ot loss,1,team-sonnet-vs-team-harveys-3
+Harvey's,0,0,2,1,3,3,0,36,ot win,2,team-sonnet-vs-team-harveys-3
+adidas,1,1,2,,4,3,1,30,win,3,team-adidas-vs-team-sonnet
+Sonnet,0,0,0,,0,2,0,32,loss,0,team-adidas-vs-team-sonnet
+Harvey's,2,1,0,,3,3,0,29,win,3,team-harveys-vs-team-scotiabank
+Scotiabank,0,0,1,,1,2,0,32,loss,0,team-harveys-vs-team-scotiabank
