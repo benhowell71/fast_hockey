@@ -24,5 +24,10 @@ create table phf_game_skaters (
     blocks int,
     penalty_minutes int,
     takeaways int,
-    giveaways int
+    giveaways int,
+    offense_game_score float,
+    defense_game_score float,
+    faceoff_game_score float,
+    penalty_game_score float,
+    game_score float
 );

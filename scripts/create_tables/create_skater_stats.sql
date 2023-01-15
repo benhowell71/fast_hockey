@@ -32,5 +32,10 @@ create table skater_stats (
     blocks int,
     penalty_minutes int,
     takeaways int,
-    giveaway int
+    giveaway int,
+    offense_game_score float,
+    defense_game_score float,
+    faceoff_game_score float,
+    penalty_game_score float,
+    game_score float
 );
