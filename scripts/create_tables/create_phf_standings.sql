@@ -1,6 +1,6 @@
-drop table if exists phf_schedule;
+drop table if exists phf_standings;
 
-create table phf_schedule (
+create table phf_standings (
     team_name varchar(50), 
     team_id int, 
     league_id int, 

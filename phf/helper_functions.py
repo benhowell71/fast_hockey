@@ -144,11 +144,15 @@ def helper_phf_team_box(tables, game_id):
     # df['league'] = 'PHF'
     # df['league_id'] = 100
 
+    df['power_play_pct'] = np.round(df.successful_power_plays.astype(float) / df.power_play_opportunities.astype(float), 2)
+    df['shot_pct'] = np.round(df.total_scoring.astype(float) / df.total_shots.astype(float), 2)
+    df['faceoff_win_pct'] = df.faceoff_win_pct.astype(float)
+
     df = df[['team', 'game_id', 'winner', 'successful_power_plays', 'power_play_opportunities',
-       'power_plays', 'penalty_minutes', 'faceoff_win_pct', 'blocks',
+       'power_plays', 'power_play_pct', 'penalty_minutes', 'faceoff_win_pct', 'blocks',
        'takeaways', 'giveaways', 'period_1_shots', 'period_2_shots',
        'period_3_shots', 'overtime_shots', 'shootout_made_shots',
-       'shootout_missed_shots', 'total_shots', 'period_1_scoring',
+       'shootout_missed_shots', 'total_shots', 'shot_pct', 'period_1_scoring',
        'period_2_scoring', 'period_3_scoring',
        'overtime_scoring', 'shootout_made_scoring', 'shootout_missed_scoring', 'total_scoring']]
 

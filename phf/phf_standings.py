@@ -56,6 +56,8 @@ def phf_standings(season: int) -> pd.DataFrame:
 
         standings['games_played'] = standings['gp']
 
+        standings = standings[standings.games_played > 0]
+
         # standings = standings[['team_name',
         #     'league_id',
         #     'season', 'team_id', 'gp', 'wins', 'losses', 'ties', 'points',

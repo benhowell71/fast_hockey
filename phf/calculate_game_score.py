@@ -3,9 +3,9 @@ import numpy as np
 
 from phf.phf_player_box import phf_player_box
 
-game_df = phf_player_box(game_id=585655)
-skaters_df = game_df[0]
-skaters_df = skaters_df[skaters_df.team == 'Minnesota Whitecaps']
+# game_df = phf_player_box(game_id=585655)
+# skaters_df = game_df[0]
+# skaters_df = skaters_df[skaters_df.team == 'Minnesota Whitecaps']
 
 def calculate_game_score(skaters_df: pd.DataFrame) -> pd.DataFrame:
 
