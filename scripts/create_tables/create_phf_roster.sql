@@ -5,7 +5,7 @@ create table phf_roster (
     player_id float,
     jersey int,
     position varchar(6),
-    date_of_birth date,
+    date_of_birth varchar(50),
     season int,
     season_id int,
     team varchar(75),

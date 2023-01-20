@@ -24,7 +24,7 @@ create table goalie_stats (
     shots_against int,
     saves int,
     goals_allowed int,
-    save_pct DECIMAL(4, 3),
+    save_pct DECIMAL(5, 3),
     goals_against_average float,
     shutouts int,
     penalty_minutes int,
