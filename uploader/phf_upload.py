@@ -1,6 +1,6 @@
-from uploader.updates.upload_phf_schedule import update_phf_schedule
-from uploader.updates.upload_phf_box import update_phf_box
-from uploader.updates.upload_phf_game_box import update_phf_game_box
+from uploader.updates.update_phf_schedule import update_phf_schedule
+from uploader.updates.update_phf_box import update_phf_box
+from uploader.updates.update_phf_game_box import update_phf_game_box
 
 def phf_upload(season):
     # update player standings
