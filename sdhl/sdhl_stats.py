@@ -93,4 +93,42 @@ def sdhl_stats() -> pd.DataFrame:
         sdhl_teams['team_founded'].append(teams[i]['teamInfo']['founded'] if 'founded' in teams[i]['teamInfo'] else None)
 
     team_df = pd.DataFrame(sdhl_teams)
-        
+    
+    players = df['players'].item()
+
+    player_df = {
+        'first_name': [],
+        'last_name': [],
+        'full_name': [],
+        'player_id': [],
+        'player_uuid': [],
+        'date_of_birth': [],
+        'team_uuid': [],
+        'jersey': [],
+        'nationality': [],
+        'weight': [],
+        'height': [],
+        'handedness': [],
+        'captain': [],
+        'player_photo': []
+    }
+    
+    for i in players:
+        player_list = players[i]
+        team_id = [x for x in player_list['teamPlayers']][0] if len(player_list['teamPlayers']) > 0 else None
+        player_df['first_name'].append(player_list['firstName'] if 'firstName' in player_list else None)
+        player_df['last_name'].append(player_list['lastName'] if 'lastName' in player_list else None)
+        player_df['full_name'].append(player_list['fullName'] if 'fullName' in player_list else None)
+        player_df['player_id'].append(i)
+        player_df['player_uuid'].append(player_list['uuid'] if 'uuid' in player_list else None)
+        player_df['date_of_birth'].append(player_list['dateOfBirth'][:10] if 'dateOfBirth' in player_list else None)
+        player_df['team_uuid'].append(team_id)
+        player_df['jersey'].append(player_list['teamPlayers'][team_id]['defaultJersey'] if len(player_list['teamPlayers']) > 0 and 'defaultJersey' in player_list['teamPlayers'][team_id] else None)
+        player_df['nationality'].append(player_list['nationality'] if 'nationality' in player_list else None)
+        player_df['height'].append(player_list['height'] if 'height' in player_list else None)
+        player_df['weight'].append(player_list['weight'] if 'weight' in player_list else None)
+        player_df['handedness'].append(player_list['shoots'][:1].upper() if 'shoots' in player_list else None)
+        player_df['captain'].append(player_list['teamPlayers'][team_id]['captain'] if len(player_list['teamPlayers']) > 0 and 'captain' in player_list['teamPlayers'][team_id] else None)
+        player_df['player_photo'].append(player_list['renderedLatestPortrait']['url'] if 'renderedLatestPortrait' in player_list else 'https://sportality.cdn.s8y.se/default-images/player/default-no-gender_grey.png')
+
+    player_info = pd.DataFrame(player_df)
