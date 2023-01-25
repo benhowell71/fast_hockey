@@ -72,7 +72,8 @@ def sdhl_schedule(season: int) -> pd.DataFrame:
         schedule['league'].append(rows['seriesInfo']['code'])
 
     schedule_df = pd.DataFrame(schedule)
-    schedule_df.winner.value_counts()
+    # schedule_df.winner.value_counts()
     # pd.DataFrame.from_dict()
     # pd.DataFrame(data["teamList"])
     # data["ssgtUuid"] # okay, this returns the ID for a season
+    return schedule_df
