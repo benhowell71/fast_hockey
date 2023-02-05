@@ -12,6 +12,8 @@ from phf.phf_standings import phf_standings
 def update_phf_standings(season):
     standings = phf_standings(season=season)
 
-    execute_command(query="DELETE FROM phf_standings;")
+    execute_command(query=f"DELETE FROM phf_standings where season = {season};")
 
     load_data(df=standings, table_name='phf_standings')
+
+# update_phf_standings(season=2023)

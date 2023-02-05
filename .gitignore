@@ -1,6 +1,7 @@
 # Contains database login info
 database.py
 creds/
+requests/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
