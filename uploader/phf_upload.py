@@ -14,3 +14,5 @@ def phf_upload(season):
     # download team and player stats for current season
     # undecided on team rosters how often we want to update
     ##### 
+
+phf_upload(season=2023)

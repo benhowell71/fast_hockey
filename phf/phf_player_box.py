@@ -68,14 +68,16 @@ def phf_player_box(game_id: int):
 
         if len(skaters) > 0:
             skaters['Name'] = skaters.Name.str.replace("#\w+", "")
-
+            # skaters.to_csv('requests/game_skaters.csv', index=False)
             skaters.columns = GAME_STAT_COLUMNS
+            skaters.columns = ['jersey', 'player_name', 'position', 'goals', 'assists', 'points', 'penalty_minutes', 'shots_on_goal', 'blocks', 'giveaways', 'takeaways', 'faceoff_record', 'faceoff_win_pct', 'power_play_goal', 'short_hand_goal', 'shots', 'shots_blocked', 'faceoffs_won', 'faceoffs_lost', 'team']
             skaters = skaters.merge(info, how='left', on='player_name')
 
             skaters['game_id'] = game_id
             skaters['shot_pct'] = np.round(skaters['goals'] / skaters['shots_on_goal'], 3)
 
             skaters = skaters[GAME_FINAL_STAT_COLUMNS]
+            skaters.to_csv('requests/game_skaters.csv', index=False)
         else:
             skaters = pd.DataFrame(columns=GAME_FINAL_STAT_COLUMNS)
         
